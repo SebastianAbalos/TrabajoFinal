@@ -63,3 +63,20 @@ h1{
     font-size: 60px;
     color: #BC0250;
 }
+.centrosMedicosListados{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F2F5F7;
+}
+
+.cenMedLis{
+background-color: #F0F3F6;
+    li{
+    list-style: none;
+    }
+}
+.cenMedLis li::before{
+        content: ">>";
+        color: #BC0250;
+        display: inline-block;
+}
