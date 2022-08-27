@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:$acolor;
+}
+
+.sombreadoHeader a:hover{
+    color: #99D255;
+    background-color: #BC0250;
+}
+
+.gridTextoHome{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-direction: row;
+    justify-content:center;
+    }
+.borderHome{
+    @include borderHome(1px,1px solid #BC0250);
+}
+
+.gridTxtHome{
+    align-items:center;
+    @include borderHome(1px,1px solid #BC0250);
+}

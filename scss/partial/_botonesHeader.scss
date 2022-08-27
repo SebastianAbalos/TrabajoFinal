@@ -1,0 +1,17 @@
+.botonAbona{
+   @include botonMenu(15, white);
+    background-color: #99D255;
+        &:hover{
+        color:#99D255;
+        background-color: #BC0250;
+        }
+}
+
+.botonAfil {
+    @include botonMenu(15, black);
+    background-color: #BC0250;
+        &:hover {
+        color:#BC0250;
+        background-color: #99D255;
+        }
+}

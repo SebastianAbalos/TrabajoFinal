@@ -1,0 +1,10 @@
+@mixin botonMenu ($border-radius,$color) {
+    border-radius: $border-radius;
+    margin-right: 10px;
+    color: $color;
+}
+
+@mixin borderHome($padding, $border) {
+    padding: $padding;
+    border: $border;
+}
