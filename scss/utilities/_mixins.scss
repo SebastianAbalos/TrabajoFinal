@@ -8,3 +8,7 @@
     padding: $padding;
     border: $border;
 }
+
+@mixin progress-bar-color($progress-color) {
+background-color: $progress-color;
+}

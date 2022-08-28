@@ -23,7 +23,6 @@ h1{
 .card-text{
     padding: 10PX;
     font-size: 20PX;
-    text-decoration: underline;
 }
 .back-cards{
     background-color:#F0F3F6 ;
@@ -36,7 +35,7 @@ h1{
   display: flex;
   justify-content: center;
 }
-.card {
+.cardSuc {
     margin: 0 3.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
@@ -79,4 +78,20 @@ background-color: #F0F3F6;
         content: ">>";
         color: #BC0250;
         display: inline-block;
+}
+.cardPlan{
+    margin: 0 3.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+.progress-bar-color-azul{
+    @include progress-bar-color(#00BAEF)
+}
+.progress-bar-color-bronce{
+    @include progress-bar-color(#FEAF00)
+}
+.progress-bar-color-plata{
+    @include progress-bar-color(#C0C0C0)
+}
+.progress-bar-color-oro{
+    @include progress-bar-color(#D4AF37)
 }
