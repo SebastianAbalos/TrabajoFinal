@@ -14,22 +14,19 @@ a {
   background-color: #BC0250;
 }
 
-.gridTextoHome {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .borderHome {
   padding: 1px;
   border: 1px solid #BC0250;
 }
 
-.gridTxtHome {
+.gridTextoHome {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F2F5F7;
+  justify-items: center;
   align-items: center;
-  padding: 1px;
-  border: 1px solid #BC0250;
 }
 
 h1 {
@@ -40,6 +37,11 @@ h1 {
 .coloracordeon {
   background-color: #BC0250;
   color: #99D255;
+}
+
+.bannerSedes {
+  height: 100%;
+  width: 100%;
 }
 
 .colorbodyacordeon {
@@ -116,6 +118,7 @@ h2 {
 
 .cenMedLis {
   background-color: #F0F3F6;
+  width: 25%;
 }
 .cenMedLis li {
   list-style: none;
@@ -146,6 +149,31 @@ h2 {
 
 .progress-bar-color-oro {
   background-color: #D4AF37;
+}
+
+.medicacion-dispo {
+  background-color: #F0F3F6;
+  margin: 2%;
+  padding: 2%;
+}
+
+.container-contacto {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.item-contacto {
+  width: 45%;
+}
+
+.item-contacto2 {
+  width: 5%;
+}
+
+.btn-form-contact {
+  background-color: #BC0250;
+  color: #99D255;
 }
 
 .botonAbona {
@@ -179,50 +207,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.bannerSedes {
-  height: 100%;
-  width: 100%;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.col {
-  padding: 10px;
-  align-items: center;
-}
-
-.box:hover {
-  transform: scale(2) translate(50%, 25%);
-  transition: all 3s;
-}
-
-.box2:hover {
-  transform: rotate(360deg) scale(2);
-  transition: all 2s;
-}
-
-.box3:hover {
-  transform: rotate(-360deg) scale(2);
-  transition: all 2s;
-}
-
-.imgClinicas {
-  width: 600px;
-  height: 450px;
-  margin: 10px;
-  vertical-align: baseline;
-}
-
-.mapsCentros {
-  width: 600px;
-  height: 450px;
-  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,7 +6,10 @@ h1{
     background-color: #BC0250;
     color: #99D255;
 }
-
+.bannerSedes{
+    height: 100%;
+    width: 100%;
+}
 .colorbodyacordeon{
     background-color:#99D255;
 }
@@ -70,6 +73,7 @@ h1{
 
 .cenMedLis{
 background-color: #F0F3F6;
+width: 25%;
     li{
     list-style: none;
     }
@@ -94,4 +98,26 @@ background-color: #F0F3F6;
 }
 .progress-bar-color-oro{
     @include progress-bar-color(#D4AF37)
+}
+
+.medicacion-dispo{
+    background-color: #F0F3F6;
+    margin: 2%;
+    padding: 2%;
+}
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.item-contacto{
+    width:45% ;
+}
+.item-contacto2{
+    width:5% ;
+}
+
+.btn-form-contact{
+    background-color: #BC0250;
+    color: #99D255;
 }
