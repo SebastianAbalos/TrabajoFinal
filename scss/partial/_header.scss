@@ -20,10 +20,11 @@ a{
 }
 .gridTextoHome{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     flex-direction: column;
     justify-content:center;
     background-color: #F2F5F7;
-    justify-items: center;
-    align-items: center;
+}
+.gridTxtHome1{
+    padding: 5%;
 }

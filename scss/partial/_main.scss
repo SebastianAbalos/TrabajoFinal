@@ -67,13 +67,14 @@ h1{
 }
 .centrosMedicosListados{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #F2F5F7;
+    flex-wrap: wrap;
 }
 
 .cenMedLis{
 background-color: #F0F3F6;
-width: 25%;
+width: auto;
     li{
     list-style: none;
     }
